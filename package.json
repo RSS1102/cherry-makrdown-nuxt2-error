@@ -1,0 +1,32 @@
+{
+  "name": "chrry-markdown-nuxt2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "resolutions": {
+    "mkdirp": "0.5.6"
+  },
+  "dependencies": {
+    "cherry-markdown": "^0.8.44",
+    "core-js": "^3.25.3",
+    "null-loader": "^4.0.1",
+    "nuxt": "^2.18.1",
+    "raw-loader": "^4.0.2",
+    "vue": "^2.7.10",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.92.1"
+  }
+}
